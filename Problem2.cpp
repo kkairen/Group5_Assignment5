@@ -26,11 +26,21 @@ int main(){
         return 0;
     }
 
+    if (allwords.empty()) {
+        cout << "WARNING: Dictionary is empty! Check your file path." << endl;
+}
+
     // check spelling
     while (checkFile >> checkWord){
         if(find(allwords.begin(), allwords.end(), checkWord) == allwords.end()){
+            for (char &c : checkWord) {
+                c = std::tolower(c);
+            }
+
             // check to see if words match if not then print
             cout << checkWord << endl;
         }
     }
+
+    return 0;
 }
