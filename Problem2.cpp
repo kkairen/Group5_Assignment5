@@ -1,3 +1,5 @@
+/* WRITTEN BY: CORAL AVILES-SIERRA , OTHER TEAM MEMBERS: RAINER APONTE & DEREK LEADER */
+
 #include <iostream>
 #include <fstream>
 #include <string>
