@@ -1,4 +1,10 @@
-/* WRITTEN BY: CORAL AVILES-SIERRA , OTHER TEAM MEMBERS: RAINER APONTE & DEREK LEADER */
+/*
+   Name: Coral Aviles
+   Assignment: Assignment 5 - P8.2
+   Course: C++ Programming
+   Description: Program spell checks a document submitted by verifying text
+                Each code segment is authored by Coral Aviles.
+*/
 
 #include <iostream>
 #include <fstream>
