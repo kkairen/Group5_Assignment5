@@ -24,7 +24,7 @@ int main(){
     dictionaryFile.close(); // close your file
 
     
-    ifstream checkFile("LoremIpsum.txt");
+    ifstream checkFile("loremipsum.txt");
     if(!checkFile){
         cout << "Could Not Open to Spell Check" << endl;
         return 0;
